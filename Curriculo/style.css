@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgrey;
+    width: 100%;
+    color: black;
+    text-align: center;
+    min-height: 100vh;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: auto;
+    width: 90%;
+    height: auto;
+    padding: 16px 2%;
+    box-shadow: 0 0 5px rgba(73, 58, 58, 0.822);
+}
+
+.hr_01{
+    text-align: center;
+    padding: 0;
+    border-top: medium dashed rgba(73, 58, 58, 0.822);
+    border-bottom: medium dashed rgba(73, 58, 58, 0.822);
+    overflow: visible;
+    height: 4px;
+}
+.hr_01::after{
+    content: "Objetivo";
+    background-color: lightgrey;
+    padding: 0 0.4em;
+    font-size: 1.6em;
+    display: inline;
+    position: relative;
+    top: -0.8em;
+}
+.hr_02{
+    text-align: center;
+    padding: 0;
+    border-top: medium dashed rgba(73, 58, 58, 0.822);
+    border-bottom: medium dashed rgba(73, 58, 58, 0.822);
+    overflow: visible;
+    height: 4px;
+}
+.hr_02::after{
+    content: "Formação";
+    background-color: lightgrey;
+    padding: 0 0.4em;
+    font-size: 1.6em;
+    display: inline;
+    position: relative;
+    top: -0.8em;
+}
+.hr_03{
+    text-align: center;
+    padding: 0;
+    border-top: medium dashed rgba(73, 58, 58, 0.822);
+    border-bottom: medium dashed rgba(73, 58, 58, 0.822);
+    overflow: visible;
+    height: 4px;
+}
+
+.hr_03::after{
+    content: "Cursos";
+    background-color: lightgrey;
+    padding: 0 0.4em;
+    font-size: 1.6em;
+    display: inline;
+    position: relative;
+    top: -0.8em;
+}
+.hr_04{
+    text-align: center;
+    padding: 0;
+    border-top: medium dashed rgba(73, 58, 58, 0.822);
+    border-bottom: medium dashed rgba(73, 58, 58, 0.822);
+    overflow: visible;
+    height: 4px;
+}
+.hr_04::after{
+    content: "Habilidades";
+    background-color: lightgrey;
+    padding: 0 0.4em;
+    font-size: 1.6em;
+    display: inline;
+    position: relative;
+    top: -0.8em;
+}
+.hr_dados1{
+    border-top: medium dashed rgba(73, 58, 58, 0.822);
+    border-bottom: medium dashed rgba(73, 58, 58, 0.822);
+    height: 6px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_dados1::after{
+    content: "PEDRO HENRIQUE SILVA DE AGUIAR";
+    display: inline-block;
+    position:relative;
+    top: -0.8em;
+    background: lightgrey;
+    font-size: 1.6em;
+    padding: 0 0.4em;
+}
+h2, h3, h4, p, ul {
+    margin-bottom: 10px;
+}
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style-type: disc;     
+    display: inline-block;     
+    text-align: left;         
+    padding-left: 30px;        
+    margin: 0 auto 1em auto;     
+  }
